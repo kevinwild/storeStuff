@@ -15,7 +15,7 @@ class CreateStuffColsTable extends Migration
     {
         Schema::create('stuff_cols', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamps();
+                $table->timestamps();
         });
     }
 
